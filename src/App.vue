@@ -2,7 +2,7 @@
     <v-app>
         <drawer />
         <v-content>
-            <v-container>
+            <v-container fluid>
                 <router-view></router-view>
             </v-container>
         </v-content>
