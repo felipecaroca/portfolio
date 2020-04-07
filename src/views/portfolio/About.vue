@@ -15,17 +15,6 @@
                     profesional y personal.
                 </p>
             </v-col>
-            <v-col>
-                <h2>País:</h2>
-                <p class="display-1">Chile</p>
-                <h2>Correo:</h2>
-                <p class="display-1">felipe.caroca@hotmail.cl</p>
-                <h2>Celular:</h2>
-                <p class="display-1">+56 9 7446 9027</p>
-            </v-col>
-            <v-col>
-
-            </v-col>
         </v-row>
     </layout-base>
 </template>

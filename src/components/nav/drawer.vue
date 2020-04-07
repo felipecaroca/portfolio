@@ -70,7 +70,7 @@
 </template>
 
 <script>
-    import logo from '../../assets/logo_feli.png'
+    import logo from '../../assets/foto_feli.jpg'
     export default {
         data(){
             return{
