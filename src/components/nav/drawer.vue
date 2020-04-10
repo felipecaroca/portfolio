@@ -80,7 +80,7 @@
                     {name: 'Experiencia', path: '#experience'},
                     {name: 'Habilidades y Educación', path: '#knowledge'},
                     {name: 'Portafolio', path: '#portfolio'},
-                    {name: 'Clientes',path: '#customers'},
+                //    {name: 'Clientes',path: '#customers'},
                     {name: 'Contacto', path: '#contact'}
                 ]
             }

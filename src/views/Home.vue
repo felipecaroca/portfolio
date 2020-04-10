@@ -6,7 +6,7 @@
             <experience></experience>
             <knowledge></knowledge>
             <portfolio></portfolio>
-            <customers></customers>
+<!--            <customers></customers>-->
             <contact></contact>
         </v-flex>
     </v-layout>
