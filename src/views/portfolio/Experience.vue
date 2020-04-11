@@ -43,24 +43,24 @@
       data: [
         {
           code: 'Python', img: odoo, title: 'Desarrollo Odoo', body: 'Desarrollo de módulos para Odoo.\n' +
-            'Odoo es un ERP de código abierto escrito en python que permite realizar modificaciones según necesidad del cliente.'
+            'Odoo es un ERP de código abierto escrito en Python que permite realizar modificaciones según necesidad del cliente.'
         },
         {
           code: 'C#', img: netCore, title: 'Aplicaciones Net Core', body: 'Desarrollo de sistemas web a medida\n' +
-            'Experiencia trabajando con c# principalmente, tanto en mvc5 como en asp net core (webapi, API REST),' +
-            ' desarrollando sistemas según requerimientos del cliente'
+            'Experiencia trabajando con C# principalmente, tanto en MVC 5 como en Asp Net Core (webapi, API REST),' +
+            ' desarrollando sistemas según reque  rimientos del cliente'
         },
         {
-          code: 'Vue', img: vue, title: 'Desarrollo Front End', body: 'Desarrollo front end de aplicaciones con vuejs.\n' +
-            'Aplicación de realtime con firebase y diseños mediante bootstrap o vuetify'
+          code: 'Vue', img: vue, title: 'Desarrollo Front End', body: 'Desarrollo Front End de aplicaciones con Vuejs.\n' +
+            'Aplicación realtime con Firebase y diseños mediante Bootstrap o Vuetify'
         },
         {
           code: 'Firebase', img: firebase, title: 'Desarrollo con Plataforma Firebase', body: 'Desarrollo de proyectos' +
-            ' personales utilizando la plataforma de google Firebase.\n' +
+            ' personales utilizando la plataforma de Google Firebase.\n' +
             'De momento, nada relacionado a clientes'
         },
         {
-          code: 'Android', img: android, title: 'Aplicaciones Android', body: 'Desarrollo de aplicaciones android a' +
+          code: 'Android', img: android, title: 'Aplicaciones Android', body: 'Desarrollo de aplicaciones Android a' +
             ' nivel de proyectos personales.\n De momento, nada solicitado por cliente.'
         }
       ]

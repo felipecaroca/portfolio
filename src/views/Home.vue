@@ -5,7 +5,7 @@
             <about></about>
             <experience></experience>
             <knowledge></knowledge>
-            <portfolio></portfolio>
+<!--            <portfolio></portfolio>-->
 <!--            <customers></customers>-->
             <contact></contact>
         </v-flex>

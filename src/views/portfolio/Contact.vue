@@ -1,6 +1,6 @@
 <template>
   <layout-base id="contact">
-    <v-row>
+    <v-row align="center">
       <v-col>
         <h1>Contacto</h1>
         <v-expansion-panels>
