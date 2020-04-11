@@ -11,7 +11,7 @@
                     Python y otros.
                 </p>
                 <p>
-                    Me encuentro constantemente en busca de nuevos desafíos y proyectos que me permitan un crecimiento
+                    Me encuentro constantemente en busca de nuevos desafíos y proyectos que me permitan tener un crecimiento
                     profesional y personal.
                 </p>
                 <p>

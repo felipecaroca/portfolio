@@ -48,20 +48,20 @@
         {
           code: 'C#', img: netCore, title: 'Aplicaciones Net Core', body: 'Desarrollo de sistemas web a medida\n' +
             'Experiencia trabajando con C# principalmente, tanto en MVC 5 como en Asp Net Core (webapi, API REST),' +
-            ' desarrollando sistemas según reque  rimientos del cliente'
+            ' desarrollando sistemas según requerimientos del cliente.'
         },
         {
           code: 'Vue', img: vue, title: 'Desarrollo Front End', body: 'Desarrollo Front End de aplicaciones con Vuejs.\n' +
-            'Aplicación realtime con Firebase y diseños mediante Bootstrap o Vuetify'
+            'Aplicación realtime con Firebase y diseños mediante Bootstrap o Vuetify.'
         },
         {
           code: 'Firebase', img: firebase, title: 'Desarrollo con Plataforma Firebase', body: 'Desarrollo de proyectos' +
             ' personales utilizando la plataforma de Google Firebase.\n' +
-            'De momento, nada relacionado a clientes'
+            'De momento, nada relacionado a clientes.'
         },
         {
           code: 'Android', img: android, title: 'Aplicaciones Android', body: 'Desarrollo de aplicaciones Android a' +
-            ' nivel de proyectos personales.\n De momento, nada solicitado por cliente.'
+            ' nivel de proyectos personales.\n De momento, nada solicitado por clientes.'
         }
       ]
     })
