@@ -24,7 +24,7 @@
         </v-list>
         <v-divider></v-divider>
         <v-list align="center">
-            <v-list-item v-for="item in items">
+            <v-list-item v-for="item in items" :key="item.id">
                 <v-list-item-content>
                     <v-list-item-title>
                         <v-btn text rounded @click="$vuetify.goTo(item.path)">
@@ -45,12 +45,12 @@
             </v-list-item>
             <v-list-item>
                 <v-list-item-title>
-                    <v-btn
-                            icon
+<!--                    <v-btn-->
+<!--                            icon-->
 
-                    >
-                        <v-icon>fab fa-youtube</v-icon>
-                    </v-btn>
+<!--                    >-->
+<!--                        <v-icon>fab fa-youtube</v-icon>-->
+<!--                    </v-btn>-->
                     <v-btn
                             icon
                             href="https://www.linkedin.com/in/felipecarocaosorio/"
@@ -60,6 +60,8 @@
                     </v-btn>
                     <v-btn
                             icon
+                            href="https://github.com/felipecaroca"
+                            target="_blank"
                     >
                         <v-icon>fab fa-github</v-icon>
                     </v-btn>
@@ -79,7 +81,7 @@
                     {name: 'Sobre Mí', path:'#about'},
                     {name: 'Experiencia', path: '#experience'},
                     {name: 'Habilidades y Educación', path: '#knowledge'},
-                    // {name: 'Portafolio', path: '#portfolio'},
+                    {name: 'Portafolio', path: '#portfolio'},
                 //    {name: 'Clientes',path: '#customers'},
                     {name: 'Contacto', path: '#contact'}
                 ]
