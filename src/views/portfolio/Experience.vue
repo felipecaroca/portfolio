@@ -11,7 +11,7 @@
           >
             <template v-slot:icon>
               <v-avatar>
-                <img :src="reg.img">
+                <v-img :src="reg.img" />
 
               </v-avatar>
             </template>
@@ -32,32 +32,25 @@
 </template>
 
 <script>
-  import odoo from '../../assets/odoo.png'
+  import nextjs from '../../assets/nextjs.png'
   import netCore from '../../assets/net_core.png'
-  import vue from '../../assets/vue.png'
-  import firebase from '../../assets/firebase.png'
+  import nestjs from '../../assets/nestjs.png'
   import android from '../../assets/android.png'
 
   export default {
-    data: () => ({
+    name: 'ExperienceComponent',
+  data: () => ({
       data: [
         {
-          code: 'Python', img: odoo, title: 'Desarrollo Odoo', body: 'Desarrollo de módulos para Odoo.\n' +
-            'Odoo es un ERP de código abierto escrito en Python que permite realizar modificaciones según necesidad del cliente.'
+          code: 'Nextjs', img: nextjs, title: 'Desarrollo Front End Nextjs React', body: `Desarrollo de sitios web con react Nextjs framework mayormente, utiizando typescript.`
+      },
+      {
+          code: 'Nestjs', img: nestjs, title: 'Desarrollo Back End Nestjs', body: `Desarrollo de aplicaciones back End con framework Nestjs, utilizando graphql o API rest, distintos tipos de autenticaciones, real time con socket.io, entre otras cosas.`
         },
         {
           code: 'C#', img: netCore, title: 'Aplicaciones Net Core', body: 'Desarrollo de sistemas web a medida\n' +
             'Experiencia trabajando con C# principalmente, tanto en MVC 5 como en Asp Net Core (webapi, API REST),' +
             ' desarrollando sistemas según requerimientos del cliente.'
-        },
-        {
-          code: 'Vue', img: vue, title: 'Desarrollo Front End', body: 'Desarrollo Front End de aplicaciones con Vuejs.\n' +
-            'Aplicación realtime con Firebase y diseños mediante Bootstrap o Vuetify.'
-        },
-        {
-          code: 'Firebase', img: firebase, title: 'Desarrollo con Plataforma Firebase', body: 'Desarrollo de proyectos' +
-            ' personales utilizando la plataforma de Google Firebase.\n' +
-            'De momento, nada relacionado a clientes.'
         },
         {
           code: 'Android', img: android, title: 'Aplicaciones Android', body: 'Desarrollo de aplicaciones Android a' +

@@ -3,7 +3,8 @@
     <v-row>
       <v-col>
         <h1>Educación</h1>
-        <v-alert border="left"
+        <v-alert
+          style="margin-bottom: 10px;"
                  :colored-border="true"
                  elevation="1"
                  color="red"
@@ -22,8 +23,8 @@
           </div>
           <div>
             <v-dialog v-model="item.dialog" fullscreen hide-overlay transition="dialog-bottom-transition">
-              <template v-slot:activator="{ on }">
-                <v-btn v-on="on">Ver</v-btn>
+              <template v-slot:activator="{ props: activatorProps }">
+                <v-btn v-bind="activatorProps">Ver</v-btn>
               </template>
               <v-card>
                 <v-toolbar dark color="primary">
@@ -70,16 +71,17 @@
   import diplomado from '../../assets/diplomado.jpg'
   import ingenieria from '../../assets/ingenieria.jpg'
 
-  export default {
+export default {
+    name:'KnowledgeComponent',
     data: () => ({
       data: [
-        {title: 'Python', rating: 4},
-        {title: 'Odoo ERP', rating: 4},
-        {title: 'Visual Studio C#', rating: 4},
-        {title: 'Vue', rating: 4},
-        {title: 'Android', rating: 3},
-        {title: 'Firebase', rating: 3},
-        {title: 'Bootstrap', rating: 4},
+        {title: 'Typescript', rating: 4},
+        {title: 'Javascript', rating: 4},
+        {title: 'Visual Studio C#', rating: 3},
+        {title: 'React', rating: 4},
+        {title: 'React native', rating: 2},
+        {title: 'Graphql', rating: 4},
+        {title: 'Mongodb', rating: 4},
         {title: 'API REST', rating: 4},
       ],
       education: [

@@ -8,11 +8,19 @@
               v-for="(item,i) in data"
               :key="i"
           >
-            <v-expansion-panel-header>{{item.title}}</v-expansion-panel-header>
-            <v-expansion-panel-content v-html="item.contact" v-if="item.html" />
-            <v-expansion-panel-content v-else >
+            <v-expansion-panel-title>{{item.title}}</v-expansion-panel-title>
+ 
+            <v-expansion-panel-text v-if="item.html">
+              <a :href="item.contact"
+                   target="_blank"
+                >
+                   Click aquí
+                </a>
+            
+            </v-expansion-panel-text>
+            <v-expansion-panel-text v-else >
               {{item.contact}}
-            </v-expansion-panel-content>
+            </v-expansion-panel-text>
           </v-expansion-panel>
         </v-expansion-panels>
       </v-col>
@@ -22,7 +30,8 @@
 </template>
 
 <script>
-  export default {
+export default {
+    name: 'ContactComponent',
     data:()=>({
       data: [
         {
@@ -31,8 +40,7 @@
         },
         {
           title: 'Linkedin',
-          contact:
-            '<a style="margin-bottom: 15px; margin-left: 20px;"  href="https://www.linkedin.com/in/felipecarocaosorio/" target="blank">Click Aquí</a>',
+          contact:'https://www.linkedin.com/in/felipecarocaosorio',
           html: true
         },
         {

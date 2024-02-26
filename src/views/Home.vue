@@ -1,22 +1,20 @@
 <template>
     <v-layout v-resize="resize">
-        <v-flex>
-            <presentation></presentation>
-            <about></about>
-            <experience></experience>
-            <knowledge></knowledge>
-            <portfolio></portfolio>
-<!--            <customers></customers>-->
-            <contact></contact>
-        </v-flex>
+        <v-row>
+            <presentation-component></presentation-component>
+            <about-component></about-component>
+            <experience-component></experience-component>
+            <knowledge-component></knowledge-component>
+            <portfolio-component></portfolio-component>
+            <contact-component></contact-component>
+        </v-row>
     </v-layout>
-
-
 </template>
 
 <script>
 
-    export default {
+export default {
+        name: 'HomeComponent',
         mounted(){
           this.resize()
         },

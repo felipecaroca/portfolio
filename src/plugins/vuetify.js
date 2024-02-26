@@ -1,10 +1,14 @@
-import Vue from 'vue';
-import Vuetify from 'vuetify/lib';
+import 'vuetify/styles'
+import { createVuetify } from 'vuetify'
+import * as components from 'vuetify/components'
+import * as directives from 'vuetify/directives'
 
-Vue.use(Vuetify);
+const vuetify = createVuetify({
+  components,
+  directives,
+  theme: {
+    defaultTheme: 'dark'
+  }
+})
 
-export default new Vuetify({
-  icons: {
-    iconfont: 'fa',
-  },
-});
+export default vuetify

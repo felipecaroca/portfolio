@@ -1,17 +1,22 @@
-import Vue from 'vue'
-import Router from 'vue-router'
+import {createRouter, createWebHashHistory} from 'vue-router'
 
 import home from './views/Home'
-Vue.use(Router)
+import tcu from './views/legal/tcu.vue'
 
-export default new Router({
-  mode: 'history',
-  base: process.env.BASE_URL,
+const router = createRouter({
+  history: createWebHashHistory(),
   routes: [
     {
       path: '/',
       name: 'home',
       component: home
+    },
+    {
+      path: '/tcu',
+      name: 'tcu',
+      component: tcu
     }
   ]
 })
+
+export default router

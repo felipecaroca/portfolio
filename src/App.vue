@@ -1,19 +1,24 @@
 <template>
     <v-app>
-        <drawer />
-        <v-content>
-            <v-container fluid>
-                <router-view></router-view>
-            </v-container>
-        </v-content>
+        <v-row>
+            <v-col cols="3">
+                <drawer-component />
+            </v-col>
+            <v-col >
+                <v-container fluid>
+                    <router-view></router-view>
+                </v-container>
+            </v-col>
+        </v-row>
+        
     </v-app>
 </template>
 
 <script>
-    export default {
-        data: () => ({
 
-        }),
+
+export default {
+        
         created() {
             this.$vuetify.theme.dark = this.dark
         },
@@ -23,7 +28,7 @@
             }
         },
         computed:{
-            dark(){
+            dark() {
                 return this.$store.getters.dark
             }
         }

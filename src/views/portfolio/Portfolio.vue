@@ -30,6 +30,7 @@
     import metronome from '../../assets/metronome.png'
     import scoreLogo from '../../assets/logo_score.png'
     export default {
+        name: 'PortfolioComponent',
         data:()=>({
             metronome,
             scoreLogo
