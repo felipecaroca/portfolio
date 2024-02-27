@@ -1,13 +1,13 @@
 <template>
     <v-layout v-resize="resize">
-        <v-row>
+        <v-col>
             <presentation-component></presentation-component>
             <about-component></about-component>
             <experience-component></experience-component>
             <knowledge-component></knowledge-component>
             <portfolio-component></portfolio-component>
             <contact-component></contact-component>
-        </v-row>
+        </v-col>
     </v-layout>
 </template>
 
